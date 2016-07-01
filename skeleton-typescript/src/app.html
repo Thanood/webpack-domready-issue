@@ -1,0 +1,11 @@
+<template>
+  <require from="nav-bar.html"></require>
+  <require from="bootstrap/css/bootstrap.css"></require>
+  <require from="./custom-attr"></require>
+
+  <nav-bar router.bind="router"></nav-bar>
+
+  <div custom-attr class="page-host">
+    <router-view></router-view>
+  </div>
+</template>
